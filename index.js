@@ -135,6 +135,7 @@ export default class PhotoUpload extends React.Component {
         <TouchableOpacity
           onPress={this.openImagePicker}
           disabled={this.state.buttonDisabled}
+          style={{ width: '100%' }}
         >
           {this.renderChildren(this.props)}
         </TouchableOpacity>
